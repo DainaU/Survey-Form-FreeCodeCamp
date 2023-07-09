@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: cursive;
+    font-size: 12px;
+  }
+  
+  .top-title {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .main-content {
+    text-align: center;
+    border: 1px solid black;
+    margin:20px 10px 25px 10px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+  
+  .input-field {
+    background-color: white;
+    border: 2px solid; 
+    padding: 25px;
+    margin: 25px;
+    text-align: start;
+  }
+  
+  #name {
+    margin-bottom: 5px;
+  }
+  
+  #email {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  #number {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  #dropdown {
+    margin-top: 10px;
+  }
+  
+  .comment-section {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .button {
+    width: 150px;
+    background-color: #ff99cc;
+    margin-top: 15px;
+  }
+  

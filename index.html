@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding journey Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <div class="top-title">
+        <h1 id="title">Coding journey Survey Form</h1>
+    <p id="description">Please take this survey to share your exprience on your coding journey!</p>
+      </div>
+      <div class="main-content">
+        <form id="survey-form" action="" method="GET">
+        <div class="input-field">
+          <label id="name-label">Name:
+          <input id="name" type="text" name="name" placeholder="Enter your name" required></label>
+          <br>
+          <label id="email-label">Email:
+          <input id="email" type="email" name="email" placeholder="Enter your email" required></label>
+          <br>
+          <label id="number-label">Age (optional):
+          <input id="number" type="number" name="age" placeholder="Age" min="5" max="120"></label>
+          <hr>
+          <div class="dropdown-list">
+            <label id="dropdown-label">Which option best describes your current role?</label>
+            <br>
+            <select id="dropdown" name="current-roles">
+              <option value="">Select current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full-time Job</option>
+              <option value="3">Part-time Job</option>
+              <option value="4">Stay-at-home Parent</option>
+              <option value="5">Unemployed</option>
+              <option value="6">Other</option>
+            </select>
+        </div>
+        <br>
+        <div class="button-section">
+          <label>How would you best describe your coding exprience?</label>
+          <br>
+          <input type="radio" name="3-chooses" value="easy" checked>
+          <label for="easy">Easy! I can do this in my sleep!</label>
+          <br>
+          <input type="radio" name="3-chooses" value="okay-i-guess">
+          <label for="okay-i-guess">It's okay, I guess... It's kinda hard for me but I will keep going.</label>
+          <br>
+          <input type="radio" name="3-chooses" value="hard">
+          <label for="hard">Hard! I don't think I can do this.</label>
+        </div>
+        <br>
+        <div class="button-section">
+          <label>What answer did you pick for the previous question and Why?</label>
+          <br>
+            <input type="checkbox" name="previous-answers" value="easy-why">
+            <label>It's easy because I love learning how to code or alright know how to code.</label>
+            <br>
+            <input type="checkbox" name="previous-answers" value="okay-why">
+            <label>It's okay because I am just starting to learn.</label>
+            <br>
+            <input type="checkbox" name="previous-answers" value="Data-Visualization">
+            <label>It's hard because I'm having a hard time understanding or don't have the time to keep up.</label>
+        </div>
+        <hr>
+        <div class="comment-section">
+          <label id="comments">Want to share more about your exprience?
+            <br> Add your comments or suggestions here.</label>
+          <br>
+          <textarea id="message" name="message" rows="5" cols="35" placeholder="Enter a comment here..."></textarea>
+          <br>
+          <button type="submit" id="submit" class="button">Submit</button>
+        </div>
+        <br>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
